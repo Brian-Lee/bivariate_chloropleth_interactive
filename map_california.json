@@ -1,0 +1,89 @@
+{
+ "currentVersion": 10.51,
+ "serviceDescription": "This dataset contains boundaries for California counties, their associated FIPS code and 2014 population estimates as calculated by CA Department of Finance.",
+ "mapName": "Layers",
+ "description": "",
+ "copyrightText": "CA Department of Finance",
+ "supportsDynamicLayers": false,
+ "layers": [
+  {
+   "id": 0,
+   "name": "CA_Counties",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0
+  }
+ ],
+ "tables": [],
+ "spatialReference": {
+  "wkid": 102100,
+  "latestWkid": 3857
+ },
+ "singleFusedMapCache": false,
+ "initialExtent": {
+  "xmin": -1.4433469379418444E7,
+  "ymin": 4313076.5562775945,
+  "xmax": -1.2120733161388326E7,
+  "ymax": 5228833.909690143,
+  "spatialReference": {
+   "wkid": 102100,
+   "latestWkid": 3857
+  }
+ },
+ "fullExtent": {
+  "xmin": -1.3849215548190858E7,
+  "ymin": 3833650.6477263197,
+  "xmax": -1.2704986992615912E7,
+  "ymax": 5162396.611501388,
+  "spatialReference": {
+   "wkid": 102100,
+   "latestWkid": 3857
+  }
+ },
+ "minScale": 0,
+ "maxScale": 0,
+ "units": "esriMeters",
+ "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+ "documentInfo": {
+  "Title": "California Counties",
+  "Author": "",
+  "Comments": "This dataset contains boundaries for California counties, their associated FIPS code and 2014 population estimates as calculated by CA Department of Finance.",
+  "Subject": "California County Boundaries",
+  "Category": "",
+  "AntialiasingMode": "None",
+  "TextAntialiasingMode": "Force",
+  "Keywords": "County,FIPS,Population"
+ },
+ "capabilities": "Map,Query,Data",
+ "supportedQueryFormats": "JSON, AMF, geoJSON",
+ "exportTilesAllowed": false,
+ "datumTransformations": [
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108001,
+     "latestWkid": 1241,
+     "transformForward": true,
+     "name": "NAD_1927_To_NAD_1983_NADCON"
+    }
+   ]
+  },
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108001,
+     "latestWkid": 1241,
+     "transformForward": false,
+     "name": "NAD_1927_To_NAD_1983_NADCON"
+    }
+   ]
+  }
+ ],
+ "supportsDatumTransformation": true,
+ "maxRecordCount": 1000,
+ "maxImageHeight": 4096,
+ "maxImageWidth": 4096,
+ "supportedExtensions": "KmlServer"
+}
