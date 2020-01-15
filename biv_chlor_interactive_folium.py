@@ -360,9 +360,9 @@ m = folium.Map(
     location=[38, -121.5],
     #tiles='cartodbpositron',
     #tiles='Mapbox Bright',
-    #tiles='stamentoner',
+    tiles='stamentoner',
     #tiles='Mapbox Control Room',
-    tiles=None,
+    #tiles=None,
     zoom_start=6
 )
 
@@ -414,4 +414,4 @@ folium.GeoJson(
 
 
 m
-m.save('new_map_6.html')
+m.save('biv_chlorpleth_ca_folium.html')
