@@ -1,0 +1,242 @@
+html,
+body {
+	min-height: 100%;
+}
+
+body {
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+
+}
+
+
+.gtitle {
+	color: red !important;
+
+
+}
+
+
+.line tspan{
+	color: red !important;
+
+
+}
+
+
+span:hover+div {
+	display: block;
+	background-color: #000 !important;
+}
+
+.draglayer {
+	background-color: #000 !important;
+}
+
+
+
+
+
+.hoverlabel {
+	background-color: #000 !important;
+}
+
+
+
+._hoverlayer {
+	background-color: #000 !important;
+}
+
+._hoverdata {
+	background-color: #000 !important;
+}
+
+.hovertemplate {
+	background-color: #000 !important;
+}
+
+.hoverinfo {
+	background-color: #000 !important;
+}
+
+
+.hover {
+	background-color: #000 !important;
+}
+
+.hoverLabelText {
+	background-color: #000 !important;
+}
+
+
+.hoverOnBox {
+	background-color: #000 !important;
+}
+
+
+.plotly_hover {
+	background-color: #000 !important;
+}
+
+
+.loneHover {
+	background-color: #000 !important;
+}
+
+._hoverSubplot {
+	background-color: #000 !important;
+}
+
+
+.hoverOnBox {
+	background-color: #000 !important;
+}
+
+
+.castHoverinfo {
+	background-color: #000 !important;
+}
+
+.zhoverformat {
+	background-color: #000 !important;
+}
+
+.hoverinfoItems {
+	background-color: #000 !important;
+}
+
+.loneHover {
+	background-color: #000 !important;
+}
+
+.hoveron {
+	background-color: #000 !important;
+}
+
+.zhoverformat {
+	background-color: #000 !important;
+}
+
+/* 
+.dragcover {
+	background-color: #000 !important;
+} */
+
+
+#MathJax_About {
+	background-color: #000 !important;
+}
+
+#g.trace.scatter.traceaeb09d:hover {
+	background-color: #000 !important;
+}
+
+
+#g {
+	background-color: #000 !important;
+}
+
+
+.trace.scatter.traceaeb09d:hover {
+	background-color: #000 !important;
+}
+
+
+.scatter.traceaeb09d:hover {
+	background-color: #000 !important;
+}
+
+.js-plotly-plot div {
+	direction: rtl;
+}
+
+
+
+.js-plotly-plot div {
+	direction: rtl;
+}
+
+
+
+.plotly div:hover:active {
+	direction: ltr !important;
+	/* opacity: 1 !important; */
+	/* z-index: 10 !important; */
+
+}
+
+
+.scatterlayer mlayer :hover {
+	direction: rtl !important;
+	/* opacity: 1 !important; */
+	/* z-index: 10 !important; */
+
+}
+
+.bab11156-1a3c-40a1-b37e-59a5e17b1b71 div {
+	direction: rtl !important;
+	/* opacity: 1 !important; */
+	/* z-index: 10 !important; */
+
+}
+
+
+.traceaeb09d div {
+	direction: ltr !important;
+	/* opacity: 1 !important; */
+	/* z-index: 10 !important; */
+
+}
+
+.plotly_hover div {
+	direction: ltr !important;
+	/* background-color: #000 !important; */
+	/* background: rgba(0, 0, 0, 1.0) !important; */
+	/* z-index: 10 !important; */
+	/* opacity: 1 !important; */
+}
+
+
+.js-plotly-plot div:hover {
+	direction: ltr !important;
+	/* background-color: #000 !important; */
+	/* background: rgba(0, 0, 0, 1.0) !important; */
+	/* z-index: 10 !important; */
+	/* opacity: 1 !important; */
+
+}
+
+
+/* 
+.svg-container {
+	background-color: #000 !important;
+} */
+
+
+.traceaeb09d {
+	background-color: #000 !important;
+}
+
+.main-svg,
+.dragcover,
+.svg-container {
+	background: transparent !important;
+	background-color: transparent !important;
+}
+
+.overlay .main-svg:nth-child(1) {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	/* top: 20px !important; */
+	/* For IE8 and earlier */
+	/*background-color: rgba(0,0,0,0.5);*/
+	/*dim the background*/
+}
