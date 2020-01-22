@@ -1,0 +1,426 @@
+html,
+body {
+	min-height: 100%;
+}
+
+body {
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+
+}
+
+
+.gtitle {
+	color: red !important;
+
+
+}
+
+
+.line tspan{
+	color: red !important;
+
+
+}
+
+
+span:hover+div {
+	display: block;
+	background-color: #000 !important;
+}
+
+.draglayer {
+	background-color: #000 !important;
+}
+
+
+
+
+
+.hoverlabel {
+	background-color: #000 !important;
+}
+
+
+
+._hoverlayer {
+	background-color: #000 !important;
+}
+
+._hoverdata {
+	background-color: #000 !important;
+}
+
+.hovertemplate {
+	background-color: #000 !important;
+}
+
+.hoverinfo {
+	background-color: #000 !important;
+}
+
+
+.hover {
+	background-color: #000 !important;
+}
+
+.hoverLabelText {
+	background-color: #000 !important;
+}
+
+
+.hoverOnBox {
+	background-color: #000 !important;
+}
+
+
+.plotly_hover {
+	background-color: #000 !important;
+}
+
+
+.loneHover {
+	background-color: #000 !important;
+}
+
+._hoverSubplot {
+	background-color: #000 !important;
+}
+
+
+.hoverOnBox {
+	background-color: #000 !important;
+}
+
+
+.castHoverinfo {
+	background-color: #000 !important;
+}
+
+.zhoverformat {
+	background-color: #000 !important;
+}
+
+.hoverinfoItems {
+	background-color: #000 !important;
+}
+
+.loneHover {
+	background-color: #000 !important;
+}
+
+.hoveron {
+	background-color: #000 !important;
+}
+
+.zhoverformat {
+	background-color: #000 !important;
+}
+
+/* 
+.dragcover {
+	background-color: #000 !important;
+} */
+
+
+#MathJax_About {
+	background-color: #000 !important;
+}
+
+#g.trace.scatter.traceaeb09d:hover {
+	background-color: #000 !important;
+}
+
+
+#g {
+	background-color: #000 !important;
+}
+
+
+.trace.scatter.traceaeb09d:hover {
+	background-color: #000 !important;
+}
+
+
+.scatter.traceaeb09d:hover {
+	background-color: #000 !important;
+}
+
+.js-plotly-plot div {
+	direction: rtl;
+}
+
+
+
+.js-plotly-plot div {
+	direction: rtl;
+}
+
+
+
+.plotly div:hover:active {
+	direction: ltr !important;
+	/* opacity: 1 !important; */
+	/* z-index: 10 !important; */
+
+}
+
+
+.scatterlayer mlayer :hover {
+	direction: rtl !important;
+	/* opacity: 1 !important; */
+	/* z-index: 10 !important; */
+
+}
+
+.bab11156-1a3c-40a1-b37e-59a5e17b1b71 div {
+	direction: rtl !important;
+	/* opacity: 1 !important; */
+	/* z-index: 10 !important; */
+
+}
+
+
+.traceaeb09d div {
+	direction: ltr !important;
+	/* opacity: 1 !important; */
+	/* z-index: 10 !important; */
+
+}
+
+.plotly_hover div {
+	direction: ltr !important;
+	/* background-color: #000 !important; */
+	/* background: rgba(0, 0, 0, 1.0) !important; */
+	/* z-index: 10 !important; */
+	/* opacity: 1 !important; */
+}
+
+
+.js-plotly-plot div:hover {
+	direction: ltr !important;
+	/* background-color: #000 !important; */
+	/* background: rgba(0, 0, 0, 1.0) !important; */
+	/* z-index: 10 !important; */
+	/* opacity: 1 !important; */
+
+}
+
+
+/* 
+.svg-container {
+	background-color: #000 !important;
+} */
+
+
+.traceaeb09d {
+	background-color: #000 !important;
+}
+
+.main-svg,
+.dragcover,
+.svg-container {
+	background: transparent !important;
+	background-color: transparent !important;
+}
+
+.overlay .main-svg:nth-child(1) {
+	/*
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	*/
+	opacity: 0.5;
+	filter: alpha(opacity=50);	
+	/* top: 20px !important; */
+	/* For IE8 and earlier */
+	/*background-color: rgba(0,0,0,0.5);*/
+	/*dim the background*/
+}
+
+
+.slider_label {
+	color: #bb00bb;
+	text-align: center;
+	position: relative;
+	top: -4px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 10px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #4CAF50;
+  background: #000000; 
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  background: #000000; 
+  cursor: pointer;
+}
+
+
+.maskredlegend { 
+  background: $ffffff;
+  height: 160px; 
+  /*width: 160px;*/
+  width: 260px;
+  position: relative;
+  top: -290px;
+  /*left: 130px;*/
+  left: 50px;  
+  visibility: hidden;
+   
+}
+
+.maskbluelegend { 
+  background: #ffffff;
+  height: 260px; 
+  width: 170px;
+  /*width: 260px;*/
+  position: relative;
+  top: -450px;
+  left: 134px;
+  /*left: 50px;  */
+  visibility: hidden;
+  /*visibility: visible;*/
+   
+}
+
+
+.bluegradient {
+    background: linear-gradient(to right, #ffffff 0%, #0000ff 100%);
+
+  height: 156px; 
+  width: 156px;
+  /*width: 260px;*/
+  position: relative;
+  top: -706px;
+  left: 133px;
+  
+  /*left: 50px;  */
+  visibility: hidden;
+  /*visibility: visible;*/	
+}
+
+
+.redgradient {
+    background: linear-gradient(to top, #ffffff 0%, #ff0000 100%);
+
+  height: 156px; 
+  width: 156px;
+  /*width: 260px;*/
+  position: relative;
+  top: -861px;
+  left: 133px;
+  
+  /*left: 50px;  */
+  visibility: hidden;
+  /*visibility: visible;*/
+}
+
+
+.extraforred {
+    background: #ffffff;
+
+  height: 56px; 
+  width: 240px;
+  /*width: 260px;*/
+  position: relative;
+  top: -861px;
+  left: 130px;
+  
+  /*left: 50px;  */
+  visibility: hidden;
+  /*visibility: visible;*/
+}
+
+
+.extraforblue {
+    background: #ffffff;
+
+  height: 20px; 
+  width: 56px;
+  /*width: 260px;*/
+  position: relative;
+  top: -930px;
+  left: 76px;
+  
+  /*left: 50px;  */
+  visibility: visible;
+  /*visibility: visible;*/
+}
+
+.extraforred2 {
+    background: #ffffff;
+
+  height: 56px; 
+  width: 100px;
+  /*width: 260px;*/
+  position: relative;
+  top: -931px;
+  left: 70px;
+  
+  /*left: 50px;  */
+  visibility: hidden;
+  /*visibility: visible;*/
+}
+
+.beginlineforblue {
+    background: #999999;
+
+  height: 164px; 
+  width: 1px;
+  /*width: 260px;*/
+  position: relative;
+  top: -1150px;
+  left: 133px;
+  
+  /*left: 50px;  */
+  visibility: hidden;
+  /*visibility: visible;*/
+}
+
+.beginlineforred {
+    background: #999999;
+
+  height: 1px; 
+  width: 156px;
+  /*width: 260px;*/
+  position: relative;
+  top: -1160px;
+  left: 133px;
+  
+  /*left: 50px;  */
+  visibility: hidden;
+  /*visibility: visible;*/
+}
+
+
